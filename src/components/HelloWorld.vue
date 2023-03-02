@@ -26,11 +26,18 @@
         <div class="card">
           nagap
         </div>
-      </div>
-      <div class="card col-md-4">
 
       </div>
-      <div class="col-md-4"></div>
+      <div class="col-md-4">
+          <div class="card">
+            nagap
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          nagap
+        </div>
+      </div>
 
     </div>
   </div>
@@ -76,5 +83,9 @@ line-height: 44px;
 display: flex;
 align-items: flex-end;
   color: var(--black)
+}
+
+.card{
+  text-align: center;
 }
 </style>

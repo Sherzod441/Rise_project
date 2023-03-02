@@ -1,53 +1,49 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg bg-white mt-3 mb-3">
+    <nav class="navbar navbar-expand-md bg-white mt-3">
       <div class="container border-bottom">
-        <div class="row">
-          <div class="col-md-2">
-            <a class="navbar-brand me-5" href="#">
-              <img
-                src="../assets/Logo.png"
-                alt="Bootstrap"
-                width="120"
-                height="34"
-              />
-            </a>
-          </div>
+        <router-link class="navbar-brand me-5" to="/">
+          <img
+            src="../assets/Logo.png"
+            alt="Bootstrap"
+            width="120"
+            height="34"
+          />
+        </router-link>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="col-md-6">
-              <ul class="navbar-nav me-4 mb-2 rounded">
-                <li class="nav-item me-5 activ">
-                  <router-link to="/">Бош сахифа</router-link>
-                </li>
-                <li class="nav-item me-5">
-                  <router-link to="/about">Биз хакида</router-link>
-                </li>
-                <li class="nav-item me-5">
-                  <router-link to="/contact">Богланиш</router-link>
-                </li>
-                <li class="nav-item">
-                  <router-link to="/news">Янгиликлар</router-link>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-2">
-              <ul class="navbar-nav me-auto mb-2 rounded">
-                <li class="nav-item me-5">
-                  <router-link to="/uzb">Узб</router-link>
-                </li>
-                <li class="nav-item me-5">
-                  <router-link to="/rus">Рус</router-link>
-                </li>
-              </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="pages me-3">
+            <ul class="navbar-nav mb-2 rounded w-100">
+              <li class="nav-item activ">
+                <router-link to="/">Бош сахифа</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/about">Биз хакида</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/contact">Богланиш</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/news">Янгиликлар</router-link>
+              </li>
+            </ul>
           </div>
-          <div class="col-md-2">
-            <p class="murojat">
-              +998-(97)-221-3636 <br />
-              <small class="smal">Murojat uchun</small>
-            </p>
+          <div class="languages">
+            <ul class="navbar-nav me-auto mb-2 rounded w-100">
+              <li class="nav-item activ">
+                <router-link to="/uzb">Узб</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/rus">Рус</router-link>
+              </li>
+            </ul>
           </div>
+        </div>
+        <div class="contact">
+          <p>
+            +998-(97)-221-3636 <br />
+            <small class="smal">Murojat uchun</small>
+          </p>
         </div>
       </div>
     </nav>
@@ -59,6 +55,10 @@ export default {};
 </script>
 
 <style scoped>
+.navbar {
+  height: 60px;
+}
+
 a {
   text-decoration: none;
   color: #181818;
@@ -68,9 +68,6 @@ a {
   font-weight: 400;
   font-size: 18px;
 }
-.navbar-nav {
-  background-color: var(--f6);
-}
 .smal {
   float: right;
   font-style: normal;
@@ -78,14 +75,44 @@ a {
   font-size: 14px;
   color: var(--gray);
 }
-li.activ {
-  background-color: var(--green);
+
+.pages {
+  width: 60%;
 }
-li.activ a {
-  color: white;
+.languages {
+  width: 15%;
 }
-li {
-  width: 140px;
-  height: 50px;
+.languages ul li {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--f6);
+}
+.languages ul li.activ {
+  background: var(--green);
+  border-radius: 8px;
+}
+
+.languages ul li.activ a {
+  color: var(--white);
+}
+
+
+.pages ul li {
+  width: 25%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--f6);
+}
+.pages ul li.activ {
+  background: var(--green);
+  border-radius: 8px;
+}
+.pages ul li.activ a {
+  color: var(--white);
 }
 </style>
