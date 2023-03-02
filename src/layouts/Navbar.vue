@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg bg-white mt-3">
+    <nav class="navbar navbar-expand-lg bg-white mt-3 mb-3">
       <div class="container border-bottom">
         <div class="row">
           <div class="col-md-2">
