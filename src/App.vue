@@ -19,7 +19,9 @@ export default {
 <style>
 *{
   font-family: 'Inter', sans-serif;
+  width: 1240;
 }
+
 :root{
   --white: #fff;
   --green: #05A55A;

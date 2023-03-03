@@ -26,7 +26,12 @@
             </ul>
           </div>
 
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"></div>
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <img src="../assets/social-media/Vector.png" alt="">
+            <img src="../assets/social-media/Vector1.png" alt="">
+            <img src="../assets/social-media/Vector2.png" alt="">
+            <p class="ft-header">Urganch shahar, Sanoatchilar ko‘chasi 9-B uy</p>
+          </div>
         </div>
         <!-- Grid row -->
       </div>
@@ -43,5 +48,13 @@ export default {};
 a {
   text-decoration: none;
   color: #181818;
+}
+.ft-header{
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color:var(--gray);
+  display: inline;
 }
 </style>
