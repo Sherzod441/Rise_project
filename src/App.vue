@@ -26,6 +26,7 @@ export default {
   --f6:#f6f6f6;
   --gray:#747474;
   --black:#000;
+  --grayone: #D9D9D9;
 }
 </style>
 

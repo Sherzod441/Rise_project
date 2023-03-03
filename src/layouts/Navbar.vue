@@ -1,7 +1,7 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-md bg-white mt-3">
-      <div class="container border-bottom">
+    <nav class="navbar navbar-expand-md bg-white border-bottom container">
+      <div class="container">
         <router-link class="navbar-brand me-5" to="/">
           <img
             src="../assets/Logo.png"
@@ -47,6 +47,7 @@
         </div>
       </div>
     </nav>
+    <!-- <hr class="container m-auto"> -->
   </div>
 </template>
 
@@ -56,7 +57,7 @@ export default {};
 
 <style scoped>
 .navbar {
-  height: 60px;
+  height: 90px;
 }
 
 a {
@@ -84,7 +85,7 @@ a {
 }
 .languages ul li {
   width: 50%;
-  height: 40px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,7 +103,7 @@ a {
 
 .pages ul li {
   width: 25%;
-  height: 40px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
