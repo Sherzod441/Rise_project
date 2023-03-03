@@ -86,13 +86,11 @@
 
 /* Team style */
 .team-carousel .card {
-    background: url("../team6.png");
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.6) 0%, rgba(24, 24, 24, 0) 100%), url("../team6.png");
     border-radius: 8px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    display: flex;
-    /* width: 400px; */
 }
 .team-img p {
     font-family: "Inter";
@@ -107,6 +105,44 @@
     font-size: 14px;
     color: var(--grayone);
 }
-/* .team-carousel .team-img {
-    width: ;
-} */
+
+.team .card.img-center {
+    background: url("../team4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    height: 533px;
+    margin-top: 150px;
+}
+.team .card.img-top {
+    height: 533px;
+    background: url("../team5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-top: 70px;
+}
+.team .card.card-center-text {
+    height: 533px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.team .card.card-center-text h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.team .card.card-center-text .card-subtitle h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--gray);
+}

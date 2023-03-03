@@ -94,6 +94,11 @@
         </div>
         <div class="team-carousel mt-3">
           <div class="row">
+            <div class="col-12">
+              <div class="carousel-icon float-end">ICON</div>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-md-4">
               <div class="card card-body border-0 d-flex p-4">
                 <div class="d-flex justify-content-between">
@@ -103,7 +108,9 @@
                         <img src="../assets/team2.png" alt="" />
                       </div>
                       <div class="col-md-9">
-                        <p class="mb-0 text-capitalize text-white">bahodir jalilov</p>
+                        <p class="mb-0 text-capitalize text-white">
+                          bahodir jalilov
+                        </p>
                         <small>Menejer</small>
                       </div>
                     </div>
@@ -114,7 +121,7 @@
                 </div>
               </div>
             </div>
-             <div class="col-md-4">
+            <div class="col-md-4">
               <div class="card card-body border-0 d-flex p-4">
                 <div class="d-flex justify-content-between">
                   <div class="team-img">
@@ -123,7 +130,9 @@
                         <img src="../assets/team2.png" alt="" />
                       </div>
                       <div class="col-md-9">
-                        <p class="mb-0 text-capitalize text-white">bahodir jalilov</p>
+                        <p class="mb-0 text-capitalize text-white">
+                          bahodir jalilov
+                        </p>
                         <small>Menejer</small>
                       </div>
                     </div>
@@ -134,7 +143,7 @@
                 </div>
               </div>
             </div>
-             <div class="col-md-4">
+            <div class="col-md-4">
               <div class="card card-body border-0 d-flex p-4">
                 <div class="d-flex justify-content-between">
                   <div class="team-img">
@@ -143,7 +152,9 @@
                         <img src="../assets/team2.png" alt="" />
                       </div>
                       <div class="col-md-9">
-                        <p class="mb-0 text-capitalize text-white">bahodir jalilov</p>
+                        <p class="mb-0 text-capitalize text-white">
+                          bahodir jalilov
+                        </p>
                         <small>Menejer</small>
                       </div>
                     </div>
@@ -151,6 +162,31 @@
                   <div class="team-url pe-2 pt-2">
                     <img src="../assets/vec.png" alt="Vector img" />
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="team">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card border-0 img-center"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 img-top"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-body border-0 card-center-text">
+                <div class="card-title">
+                  <h3>O‘rnatish uchun qulay bo‘lgan mahsulotlar</h3>
+                </div>
+                <div class="card-subtitle">
+                  <p>
+                    Bizning jahonga mashhur brend kompaniyalari tomonidan ishlab
+                    chiqarilgan gipsokarton mahsulotlari bilan bemalol
+                    raqobatlasha oladigan sifatli gipsokartonlarimiz o‘rnatish
+                    uchun juda ham qulay hisoblanadi.
+                  </p>
                 </div>
               </div>
             </div>
