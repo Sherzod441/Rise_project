@@ -6,10 +6,10 @@
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <img
               src="../assets/Logo.png"
-              alt="Bootstrap"
+              alt=""
               width="120"
               height="34"
             />
@@ -17,7 +17,7 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="row col-md-5 col-lg-5 col-xl-5 mx-auto mb-4">
+          <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mb-4">
             <ul class="nav">
               <li class="nav-item me-3"><a href="#!">Бош сахифа</a></li>
               <li class="nav-item me-3"><a href="#!">Биз хакда</a></li>
@@ -26,11 +26,11 @@
             </ul>
           </div>
 
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <img src="../assets/social-media/Vector.png" alt="">
-            <img src="../assets/social-media/Vector1.png" alt="">
-            <img src="../assets/social-media/Vector2.png" alt="">
-            <p class="ft-header">Urganch shahar, Sanoatchilar ko‘chasi 9-B uy</p>
+          <div class="col-md-4 col-lg-4 col-xl-5 mx-auto mb-md-0 mb-4">
+            <img class="me-3" src="../assets/social-media/Vector.png" alt="">
+            <img class="me-3" src="../assets/social-media/Vector1.png" alt="">
+            <img class="me-2" src="../assets/social-media/Vector2.png" alt="">
+            <p class="ft-header d-inline">Urganch shahar, Sanoatchilar ko‘chasi 9-B uy</p>
           </div>
         </div>
         <!-- Grid row -->
@@ -55,6 +55,5 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 color:var(--gray);
-  display: inline;
 }
 </style>

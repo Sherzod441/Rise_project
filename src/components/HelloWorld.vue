@@ -21,66 +21,69 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-10 ">
+      <div class="col-md-10">
         <p class="header-3">
           <span class="small me-3">Afzalliklarimiz</span>
           Xorijiy mamlakatlar bilan raqobatlasha oladigan mahsulotimizning
           asosiy afzalliklari quyidagilardan iborat
         </p>
       </div>
-
-      <!-- <div class="afzal sur">
-        <div class="back column">
-          <div class="bir">
-            <p class="navbarmenu">Afzalliklarimiz</p>
-            <h1 class="heading-text w">
-              Xorijiy mamlakatlar bilan raqobatlasha
-            </h1>
-          </div>
-          <h1 class="heading-text w1">
-            oladigan mahsulotimizning asosiy afzalliklari quyidagilardan iborat
-          </h1>
-        </div>
-      </div> -->
-
     </div>
     <div class="row mb-3">
       <div class="col-md-4">
         <div class="card">
           <div class="card-header border-0">
-            <img class="px-3 py-3" src="../assets/vectors-1/Vector.png" alt="" />
+            <img
+              class="px-3 py-3"
+              src="../assets/vectors-1/Vector.png"
+              alt=""
+            />
           </div>
-          <div class="card-body">
-            <p class="card-title">Mustahkam material</p>
-            <p class="card-subtitle">
-              Xalqaro talablarga bemalol javob beradigan gipsakartonlar
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-header border-0">
-            <img class="px-3 py-3" src="../assets/vectors-1/Vector1.png" alt="" />
-          </div>
-          <div class="card-body">
-            <p class="card-title">Mustahkam material</p>
-            <p class="card-subtitle">
-              Xalqaro talablarga bemalol javob beradigan gipsakartonlar
-            </p>
+          <div class="card-body text-white position-relative">
+            <div class="position-absolute bottom-0 pb-5 ps-5">
+              <p class="card-title">Mustahkam material</p>
+              <p class="card-subtitle">
+                Xalqaro talablarga bemalol javob beradigan gipsakartonlar
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
           <div class="card-header border-0">
-            <img class="px-3 py-3" src="../assets/vectors-1/Vector2.png" alt="" />
+            <img
+              class="px-3 py-3"
+              src="../assets/vectors-1/Vector1.png"
+              alt=""
+            />
           </div>
-          <div class="card-body">
-            <p class="card-title">Mustahkam material</p>
-            <p class="card-subtitle">
-              Xalqaro talablarga bemalol javob beradigan gipsakartonlar
-            </p>
+          <div class="card-body text-white position-relative">
+            <div class="position-absolute bottom-0 pb-5 ps-5">
+              <p class="card-title">Mustahkam material</p>
+              <p class="card-subtitle">
+                Xalqaro talablarga bemalol javob beradigan gipsakartonlar
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header border-0">
+            <img
+              class="px-3 py-3"
+              src="../assets/vectors-1/Vector2.png"
+              alt=""
+            />
+          </div>
+          <div class="card-body text-white position-relative">
+            <div class="position-absolute bottom-0 pb-5 ps-5">
+              <p class="card-title">Mustahkam material</p>
+              <p class="card-subtitle">
+                Xalqaro talablarga bemalol javob beradigan gipsakartonlar
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -89,13 +92,19 @@
       <div class="col-md-4">
         <div class="card">
           <div class="card-header border-0">
-            <img class="px-3 py-3" src="../assets/vectors-1/Vector3.png" alt="" />
+            <img
+              class="px-3 py-3"
+              src="../assets/vectors-1/Vector3.png"
+              alt=""
+            />
           </div>
-          <div class="card-body">
-            <p class="card-title">Mustahkam material</p>
-            <p class="card-subtitle">
-              Xalqaro talablarga bemalol javob beradigan gipsakartonlar
-            </p>
+          <div class="card-body text-white position-relative">
+            <div class="position-absolute bottom-0 pb-5 ps-5">
+              <p class="card-title">Mustahkam material</p>
+              <p class="card-subtitle">
+                Xalqaro talablarga bemalol javob beradigan gipsakartonlar
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -103,77 +112,273 @@
       <div class="col-md-4">
         <div class="card">
           <div class="card-header border-0">
-            <img class="px-3 py-3" src="../assets/vectors-1/Vector4.png" alt="" />
+            <img
+              class="px-3 py-3"
+              src="../assets/vectors-1/Vector4.png"
+              alt=""
+            />
           </div>
-          <div class="card-body">
-            <p class="card-title">Mustahkam material</p>
-            <p class="card-subtitle">
-              Xalqaro talablarga bemalol javob beradigan gipsakartonlar
-            </p>
+          <div class="card-body text-white position-relative">
+            <div class="position-absolute bottom-0 pb-5 ps-5">
+              <p class="card-title">Mustahkam material</p>
+              <p class="card-subtitle">
+                Xalqaro talablarga bemalol javob beradigan gipsakartonlar
+              </p>
+            </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md-4">
+        <div class="card v-card">
+          <img src="../assets/Rectangle1.png" alt="" />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card v-card">
+          <img src="../assets/Rectangle1.png" alt="" />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card v-card">
+          <img src="../assets/Rectangle1.png" alt="" />
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12"></div>
-    </div>
-    <div class="row mb-3">
       <div class="col-md-4">
-        <div class="card v-card">
-          <img src="../assets/Rectangle1.png" alt="" />
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card v-card">
-          <img src="../assets/Rectangle1.png" alt="" />
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card v-card">
-          <img src="../assets/Rectangle1.png" alt="" />
-        </div>
-      </div>
-    </div>
-    <div class="row">
       <div class="card crd-2">
-
         <div class="card-body">
-          <img class="img-fluid" src="../assets/Rectangle7.png" alt="">
+          <img class="img-fluid img" src="../assets/Rectangle7.png" alt="" />
           lorem ipsum dolor sit amet consectetur
-
         </div>
         <div class="card-footer">
-          <div class="row ">
+          <div class="row">
             <div class="col-md-6 mb-3">
               <div class="sm px-2">
-              <img src="../assets/vectors-2/Vector.png" alt="">
-              2 sm <span class="small float-end">eni</span>
+                <img src="../assets/vectors-2/Vector.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
               </div>
-              </div>
-            
+            </div>
+
             <div class="col-md-6">
               <div class="sm px-2">
-              <img src="../assets/vectors-2/Vector1.png" alt="">
-              4 sm <span class="small float-end">eni</span>
-            </div>
+                <img src="../assets/vectors-2/Vector1.png" alt="" />
+                4 sm <span class="small float-end">eni</span>
               </div>
+            </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <div class="sm px-2">
-                <img src="../assets/vectors-2/Vector2.png" alt="">
-              2 sm <span class="small float-end">eni</span>
+                <img src="../assets/vectors-2/Vector2.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
               </div>
-              </div>
-            <div class="col-md-6 ">
+            </div>
+            <div class="col-md-6">
               <div class="sm px-2">
-                4 sm <span class="small float-end ">eni</span>
+                4 sm <span class="small float-end">eni</span>
               </div>
-              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="col-md-4">
+      <div class="card crd-2">
+        <div class="card-body">
+          <img class="img-fluid img" src="../assets/Rectangle7.png" alt="" />
+          lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector1.png" alt="" />
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector2.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="sm px-2">
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card crd-2">
+        <div class="card-body">
+          <img class="img-fluid img" src="../assets/Rectangle7.png" alt="" />
+          lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector1.png" alt="" />
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector2.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="sm px-2">
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card crd-2">
+        <div class="card-body">
+          <img class="img-fluid img" src="../assets/Rectangle7.png" alt="" />
+          lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector1.png" alt="" />
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector2.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="sm px-2">
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card crd-2">
+        <div class="card-body">
+          <img class="img-fluid img" src="../assets/Rectangle7.png" alt="" />
+          lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector1.png" alt="" />
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector2.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="sm px-2">
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card crd-2">
+        <div class="card-body">
+          <img class="img-fluid img" src="../assets/Rectangle7.png" alt="" />
+          lorem ipsum dolor sit amet consectetur
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector1.png" alt="" />
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="sm px-2">
+                <img src="../assets/vectors-2/Vector2.png" alt="" />
+                2 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="sm px-2">
+                4 sm <span class="small float-end">eni</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 </template>
 
@@ -193,6 +398,7 @@ export default {
 }
 .green {
   color: var(--green);
+  text-decoration: underline;
 }
 .header-2 {
   margin-top: 140px;
@@ -202,12 +408,13 @@ export default {
   font-weight: 400;
   font-size: 18px;
   color: var(--gray);
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;display: flex;
-align-items: flex-end;
+  line-height: 27px;
+  display: flex;
+  align-items: flex-end;
 }
 .small {
   font-weight: 400;
@@ -226,7 +433,6 @@ align-items: flex-end;
   color: var(--black);
   font-weight: 400;
   font-size: 28px;
-  text-align: center;
 }
 .card-subtitle {
   font-weight: 400;
@@ -247,24 +453,28 @@ align-items: flex-end;
   width: 400px;
   height: 533px;
 }
-.crd-2{
+.crd-2 {
   width: 400px;
   height: 325px;
+
 }
-.sm{
+.sm {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  color:var(--gray);
+  color: var(--gray);
   background-color: #fff;
   border-radius: 8px;
 }
-.small{
+.small {
   font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-color:var(--green);
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--green);
 }
-
+.img{
+  width: 100%;
+  height: 80%;
+}
 </style>
   
