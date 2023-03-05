@@ -92,81 +92,7 @@
             tanishtiramiz.</small
           >
         </div>
-        <div class="team-carousel mt-3">
-          <div class="row">
-            <div class="col-12">
-              <div class="carousel-icon float-end">ICON</div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card card-body border-0 d-flex p-4">
-                <div class="d-flex justify-content-between">
-                  <div class="team-img">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <img src="../assets/team2.png" alt="" />
-                      </div>
-                      <div class="col-md-9">
-                        <p class="mb-0 text-capitalize text-white">
-                          bahodir jalilov
-                        </p>
-                        <small>Menejer</small>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="team-url pe-2 pt-2">
-                    <img src="../assets/vec.png" alt="Vector img" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-body border-0 d-flex p-4">
-                <div class="d-flex justify-content-between">
-                  <div class="team-img">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <img src="../assets/team2.png" alt="" />
-                      </div>
-                      <div class="col-md-9">
-                        <p class="mb-0 text-capitalize text-white">
-                          bahodir jalilov
-                        </p>
-                        <small>Menejer</small>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="team-url pe-2 pt-2">
-                    <img src="../assets/vec.png" alt="Vector img" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-body border-0 d-flex p-4">
-                <div class="d-flex justify-content-between">
-                  <div class="team-img">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <img src="../assets/team2.png" alt="" />
-                      </div>
-                      <div class="col-md-9">
-                        <p class="mb-0 text-capitalize text-white">
-                          bahodir jalilov
-                        </p>
-                        <small>Menejer</small>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="team-url pe-2 pt-2">
-                    <img src="../assets/vec.png" alt="Vector img" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <SliderVue />
         <div class="team">
           <div class="row">
             <div class="col-md-4">
@@ -198,7 +124,21 @@
 </template>
 
 <script>
-export default {};
+import SliderVue from "@/components/Slider.vue";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+// import $ from "jquery";
+// import "slick-carousel";
+
+export default {
+  name: "AboutView",
+  components: {
+    SliderVue,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style scoped>
