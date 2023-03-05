@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/ContactView.vue'
 import NewsView from '../views/NewsView.vue'
-
+import InNews from '../views/InNews.vue'
 
 const routes = [
   {
@@ -27,6 +27,11 @@ const routes = [
     path: '/news',
     name: 'news',
     component: NewsView
+  },
+  {
+    path: '/news/id',
+    name: 'news',
+    component: InNews
   }
 ]
 
