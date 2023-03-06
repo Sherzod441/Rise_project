@@ -2,56 +2,7 @@
   <div>
     <div class="container">
       <section id="news" class="mt-5 mb-5">
-        <div class="row carousel mb-5">
-          <div class="col-md-2">
-            <div class="image-container">
-          <img class="news-img-1 rounded" src="../assets/Rectangle1.png" alt="Image description" />
-          <div class="text-overlay">
-            <p class="title-3">Заголовок текста</p>
-          </div>
-        </div>
-          </div>
-          <div class="col-md-2">
-            <div class="image-container">
-          <img class="news-img-1 rounded" src="../assets/Rectangle1.png" alt="Image description" />
-          <div class="text-overlay">
-            <p class="title-3">Заголовок текста</p>
-          </div>
-        </div>
-          </div>
-          <div class="col-md-2">
-            <div class="image-container">
-          <img class="news-img-1 rounded" src="../assets/Rectangle1.png" alt="Image description" />
-          <div class="text-overlay">
-            <p class="title-3">Заголовок текста</p>
-          </div>
-        </div>
-          </div>
-          <div class="col-md-2">
-            <div class="image-container">
-          <img class="news-img-1 rounded" src="../assets/Rectangle1.png" alt="Image description" />
-          <div class="text-overlay">
-            <p class="title-3">Заголовок текста</p>
-          </div>
-        </div>
-          </div>
-          <div class="col-md-2">
-            <div class="image-container">
-          <img class="news-img-1 rounded" src="../assets/Rectangle1.png" alt="Image description" />
-          <div class="text-overlay">
-            <p class="title-3">Заголовок текста</p>
-          </div>
-        </div>
-          </div>
-          <div class="col-md-2">
-            <div class="image-container">
-          <img class="news-img-1 rounded" src="../assets/Rectangle1.png" alt="Image description" />
-          <div class="text-overlay">
-            <p class="title-3">Заголовок текста</p>
-          </div>
-        </div>
-          </div>
-        </div>
+        <NewsSlider />
         <div class="row mb-5">
           <div class="col-md-8">
             <div class="image-container">
@@ -137,7 +88,14 @@
 </template>
 
 <script>
-export default {};
+import NewsSlider from '@/components/NewsSlider.vue';
+
+export default {
+  name: "NewsView",
+  components: {
+    NewsSlider,
+  }
+  }
 </script>
 
 <style scoped>

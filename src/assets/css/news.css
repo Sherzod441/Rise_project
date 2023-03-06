@@ -1,5 +1,4 @@
 .news-img-1{
-    width: 100%;
     height: 253px;
 }
 .news-img-2{
@@ -13,6 +12,9 @@
 .news-img-4{
     width: 100%;
     height: 225px;
+}
+.card {
+  background-color: #fff;
 }
 
 .image-container {

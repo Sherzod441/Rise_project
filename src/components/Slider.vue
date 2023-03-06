@@ -21,9 +21,7 @@
                     <img src="../assets/team2.png" alt="" />
                   </div>
                   <div class="col-md-9">
-                    <p class="mb-0 text-capitalize text-white">
-                      bahodir jalilov
-                    </p>
+                    <p class="mb-0 text-capitalize text-white">bahodir jalilov</p>
                     <small>Menejer</small>
                   </div>
                 </div>
@@ -43,9 +41,7 @@
                     <img src="../assets/team2.png" alt="" />
                   </div>
                   <div class="col-md-9">
-                    <p class="mb-0 text-capitalize text-white">
-                      bahodir jalilov
-                    </p>
+                    <p class="mb-0 text-capitalize text-white">bahodir jalilov</p>
                     <small>Menejer</small>
                   </div>
                 </div>
@@ -65,9 +61,7 @@
                     <img src="../assets/team2.png" alt="" />
                   </div>
                   <div class="col-md-9">
-                    <p class="mb-0 text-capitalize text-white">
-                      bahodir jalilov
-                    </p>
+                    <p class="mb-0 text-capitalize text-white">bahodir jalilov</p>
                     <small>Menejer</small>
                   </div>
                 </div>
@@ -87,9 +81,7 @@
                     <img src="../assets/team2.png" alt="" />
                   </div>
                   <div class="col-md-9">
-                    <p class="mb-0 text-capitalize text-white">
-                      bahodir jalilov
-                    </p>
+                    <p class="mb-0 text-capitalize text-white">bahodir jalilov</p>
                     <small>Menejer</small>
                   </div>
                 </div>
@@ -115,7 +107,6 @@ export default {
   mounted() {
     $(".slider").slick({
       slidesToShow: 3,
-      dots: true,
       arrows: true,
       autoplay: true,
       responsive: [

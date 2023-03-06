@@ -29,8 +29,8 @@ const routes = [
     component: NewsView
   },
   {
-    path: '/news/id',
-    name: 'news',
+    path: '/news/:id',
+    name: 'Innews',
     component: InNews
   }
 ]
