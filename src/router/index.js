@@ -30,7 +30,11 @@ const routes = [
   },
   {
     path: '/news/:id',
+<<<<<<< HEAD
     name: 'Innews',
+=======
+    name: 'newsId',
+>>>>>>> c2afcc43f5164ca23498b5d1b93c4a52343a5f7e
     component: InNews
   }
 ]
